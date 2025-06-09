@@ -1,0 +1,26 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.App {
+  text-align: center;
+}
+.ContainerContact {
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  background-color: gray;
+}
+.ContainerContact a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+.ContainerContact a:hover {
+  color: brown;
+}
